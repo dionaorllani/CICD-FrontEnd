@@ -1,0 +1,34 @@
+.sendCommentIcon {
+  cursor: pointer;
+  align-self: center;
+  transition: all 0.2s;
+  font-size: 1.5rem;
+  margin-left: 4px;
+}
+
+.sendCommentIcon:hover {
+  color: var(--bs-primary);
+}
+
+
+.commentContainer {
+  position: relative;
+}
+
+.repliesContainer {
+  margin-left: 20px; /* Adjust the indent for replies */
+}
+
+.replyContainer {
+  position: relative;
+  margin-top: 10px; /* Space between replies */
+}
+
+.replyLine {
+  position: absolute;
+  top: 0;
+  left: -20px; /* Align the line with the indent */
+  height: 100%;
+  width: 2px;
+  background-color: var(--bs-secondary);
+}

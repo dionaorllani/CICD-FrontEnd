@@ -1,0 +1,17 @@
+.eventImgBox {
+  position: relative;
+}
+
+.eventDateBox {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.eventTitle {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}

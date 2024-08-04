@@ -1,0 +1,25 @@
+.notification {
+  transition: all 0.2s;
+  position: relative;
+}
+
+
+.notification:global(.new) {
+  background-color: var(--bs-secondary);
+}
+
+.unSeenNotification {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: blue;
+  border-radius: 50%;
+  top: 50%;
+  left: 0;
+  transform: translate(0px, -250%);
+}
+
+.notification:hover {
+  background-color: var(--bs-secondary);
+  opacity: 0.9;
+}

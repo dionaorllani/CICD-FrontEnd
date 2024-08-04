@@ -1,0 +1,16 @@
+
+
+.homepageContainer {
+  display: grid;
+  grid-template-columns: 1fr 17rem;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 1200px) {
+  .homepageContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+

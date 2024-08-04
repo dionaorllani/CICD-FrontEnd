@@ -1,0 +1,22 @@
+.createPostBox {
+  background-color: var(--bs-light);
+}
+
+.custom-textarea {
+  height: 100px;
+  border: none;
+  resize: none; /* Prevent manual resizing by the user */
+  overflow: hidden !important; /* Hide scrollbar */
+}
+
+.custom-textarea:focus {
+  outline: none;
+}
+
+/* Auto-resize textarea */
+.custom-textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+}

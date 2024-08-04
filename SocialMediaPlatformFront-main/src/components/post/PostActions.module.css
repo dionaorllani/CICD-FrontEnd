@@ -1,0 +1,11 @@
+.postActionButtons {
+  transition: all 0.2s;
+}
+
+.postActionButtons:global(.done) {
+  color: var(--bs-primary) !important;
+}
+
+.postActionButtons:hover {
+  color: var(--bs-primary) !important;
+}

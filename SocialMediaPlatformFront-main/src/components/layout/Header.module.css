@@ -1,0 +1,64 @@
+.header {
+  background-color: var(--bs-light);
+
+  padding: 1.2rem 4.8rem;
+  border-radius: 6px;
+}
+
+.btn-close-light {
+  filter: invert(0);
+}
+
+.btn-close-dark {
+  filter: invert(1);
+}
+
+
+.iconBox {
+  background-color: var(--bs-secondary);
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: relative;
+  cursor: pointer;
+  transition: fill-opacity 0.3s;
+  fill-opacity: 0.7;
+}
+
+.iconBox:hover {
+  fill-opacity: 1;
+}
+
+.themModeIconBox {
+  padding: 3px 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.themModeIconBox:hover {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+
+
+.newNotifications {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  animation: blink 1s infinite;
+  animation-iteration-count: 15;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

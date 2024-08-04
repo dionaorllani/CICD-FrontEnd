@@ -1,0 +1,27 @@
+.main {
+  /* background-color: var(--bs-light); */
+  border-radius: 6px;
+}
+
+.gridContainer {
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+  gap: 20px;
+
+  grid-auto-rows: min-content;
+  align-items: start; /* This ensures that all grid items are aligned to the start */
+}
+
+@media (max-width: 992px) {
+  .gridContainer {
+    grid-template-columns: 14rem 1fr;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .main {
+    grid-column: 1 / -1;
+  }
+}

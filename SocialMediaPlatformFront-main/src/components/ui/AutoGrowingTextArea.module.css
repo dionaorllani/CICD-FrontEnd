@@ -1,0 +1,7 @@
+.placeholder:global(.text-light)::placeholder {
+  color: #fff !important;
+}
+
+.placeholder:global(.text-dark)::placeholder {
+  color: #777 !important;
+}

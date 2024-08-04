@@ -1,0 +1,7 @@
+.aside {
+  padding: 2rem;
+  background-color: var(--bs-light);
+  grid-row: 2 / -1;
+  border-radius: 6px;
+}
+

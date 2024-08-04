@@ -1,0 +1,16 @@
+.darkModal .modal-content {
+  background-color: #343a40;
+  color: white;
+}
+
+.darkModalHeader {
+  border-bottom: 1px solid #495057;
+}
+
+.darkModalBody {
+  border-bottom: 1px solid #495057;
+}
+
+.darkModalFooter {
+  border-top: 1px solid #495057;
+}

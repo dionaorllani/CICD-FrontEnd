@@ -1,0 +1,32 @@
+.navUl {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.navUl li a {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--bs-dark-text);
+  padding-bottom: 3px;
+}
+
+.navUl li {
+  padding: 10px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+
+.navUl li:hover {
+  background-color: var(--bs-secondary);
+}
+
+
+.navUl li a:global(.active) {
+  display: inline-flex;
+  
+ border-bottom: 2px solid var(--bs-secondary);
+}

@@ -1,0 +1,82 @@
+.profileContainer {
+  display: grid;
+  grid-template-columns: 1fr 17rem;
+  align-items: start;
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .profileContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profileBox {
+  background-color: var(--bs-light);
+}
+
+.aboutBox {
+  background-color: var(--bs-light);
+}
+
+
+/* ===================================================== */
+/* Gallery css */
+
+.galleryGridRow1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.galleryGridRow2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.galleryImage {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.galleryImage:hover {
+  transform: scale(1.1);
+}
+
+.magnifyingGlass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  color: #eee;
+}
+
+.galleryImage:hover .magnifyingGlass {
+  opacity: 1;
+}
+
+
+
+/* ============================================== */
+
+.navLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.navLink:global(.active) {
+  border-bottom: 3px solid var(--bs-primary);
+}
+
+.navLink:hover {
+  border-bottom: 3px solid var(--bs-primary);
+}

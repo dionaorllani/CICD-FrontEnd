@@ -1,0 +1,23 @@
+.search {
+  padding: .3rem;
+  border: none;
+  border-bottom: 3px solid var(--bs-secondary);
+  background: none;
+  outline: none;
+  
+  background-color: var(--bs-secondary);
+  border-radius: 6px;
+  padding-left: 40px;
+}
+
+.searchBox {
+  position: relative;
+  display: inline-block;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 0;
+  transform: translateY(50%);
+  left: 10px;
+}

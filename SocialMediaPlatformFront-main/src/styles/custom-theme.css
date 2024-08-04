@@ -1,0 +1,14 @@
+:root {
+  --bs-primary: #1877f2; /* Facebook Blue */
+  --bs-secondary: #eff2f6; /* Light Background */
+  --bs-dark: #18191a; /* Dark Background */
+  --bs-light: #ffffff; /* Light Text */
+  --bs-dark-text: #242526; /* Dark Text */
+}
+
+.dark-mode {
+  --bs-primary: #1877f2;
+  --bs-secondary: #242526; /* Dark Background */
+  --bs-light: #18191a; /* Dark Background */
+  --bs-dark-text: #eff2f6; /* Light Text */
+}
