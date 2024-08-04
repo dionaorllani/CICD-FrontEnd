@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { Form } from "react-bootstrap";
 import { useTheme } from "../../ThemeContext";
-import styles from "./AutoGrowingTextarea.module.css";
+import styles from "./AutoGrowingTextArea.module.css";
 
 function AutoGrowingTextarea({
   placeholderText = "Share your thoughts here...",
