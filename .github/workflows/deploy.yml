@@ -27,8 +27,8 @@ jobs:
       run: |
         gcloud auth configure-docker europe-west4-docker.pkg.dev
         docker pull node:14-alpine
-        docker build -t europe-west4-docker.pkg.dev/rational-symbol-431015-u0/docker-images/tma_front_image:$IMAGE_TAG .
-        docker push europe-west4-docker.pkg.dev/rational-symbol-431015-u0/docker-images/tma_front_image:$IMAGE_TAG
+        docker build -t europe-west4-docker.pkg.dev/rational-symbol-431015-u0/docker-images/smp_front_image:$IMAGE_TAG .
+        docker push europe-west4-docker.pkg.dev/rational-symbol-431015-u0/docker-images/smp_front_image:$IMAGE_TAG
       working-directory: SocialMediaPlatformFront
     - name: Deploy to GKE
       env:
