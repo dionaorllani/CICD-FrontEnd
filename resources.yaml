@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: europe-west4-docker.pkg.dev/GOOGLE_PROJECT/docker-images/tma_front_image:IMAGE_TAG
+        image: europe-west4-docker.pkg.dev/GOOGLE_PROJECT/docker-images/smp_front_image:IMAGE_TAG
         ports:
         - containerPort: 4173
         
